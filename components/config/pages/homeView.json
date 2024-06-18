@@ -1,0 +1,27 @@
+{
+    "genresSelection": {
+        "itemComponentName": "MarkupGridItem",
+        "translation": [100,45],
+        "numRows": 1,
+        "numColumns": 5,
+        "drawFocusFeedback": false,
+        "itemSize": [200,150],
+        "itemSpacing": [50,0]
+    },  
+    "homeRowList": {
+        "itemComponentName": "CatalogItem",
+        "rowTitleComponentName" : "RowTitleItem",
+        "vertFocusAnimationStyle": "floatingFocus",
+        "rowFocusAnimationStyle": "floatingFocus",
+        "focusBitmapBlendColor": "#7d498a",
+        "numRows": 2,
+        "drawFocusFeedbackOnTop": true,
+        "translation": [90, 170],
+        "itemSize": [1800,400],
+        "rowItemSize": [[185, 278]],
+        "rowItemSpacing": [[25,40]],
+        "rowLabelOffset": [[0,24]],
+        "rowSpacings": [20],
+        "showRowLabel": [true]
+    }
+}

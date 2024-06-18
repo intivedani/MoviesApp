@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="BasePageView" extends="Group">
+
+    <interface>
+        <function name="initialize"/>
+        <field id="viewParams" type="assocarray" onChange="onViewParamsChanged" />
+    </interface>
+
+    <!-- Utils -->
+    <script type="text/brightscript" uri="pkg:/source/utils/utils.brs"/>
+
+    <script type="text/brightscript" uri="./BasePageView.brs"/>
+
+    <children>
+    
+    </children>
+
+</component>

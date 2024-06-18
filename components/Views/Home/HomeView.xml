@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="HomeView" extends="BasePageView">
+
+    <script type="text/brightscript" uri="HomeView.brs" />
+
+    <children >
+
+        <CustomMarkupGrid 
+            id="genresSelection" />
+
+        <RowList 
+            id="homeRowList" />
+        
+    </children>
+
+</component>

@@ -1,0 +1,20 @@
+{
+    "config": {
+        "navigationMap":{
+            "home": {
+                "node": "HomeView",
+                "pageConfig": "homeView.json"
+            },
+            "detail": {
+                "node": "DetailView",
+                "pageConfig": "detailView.json"
+            }
+        },
+        "apiKey": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5MmY2NDJjMGQyZjkwOTA0ZDc5YzhkYjJlM2IxOGM5MSIsInN1YiI6IjY1MzZjNjkyOTQ2MzE4MDBlMzgyNTE3OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.zgFNEulspcbr8Sy7shuUWaCAVaxCtQmWaWkoNsZzVaU",
+        "endPoints": {
+            "genre": "https://api.themoviedb.org/3/genre/movie/list?language=en",
+            "imageConfig": "https://api.themoviedb.org/3/configuration",
+            "movieContent": "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "mainLayoutGroup": {
+        "layoutDirection": "horiz",
+        "translation": [200,200],
+        "itemSpacings": [200]
+    },
+    "detailInformation": {
+        "layoutDirection": "vert",
+        "horizAlignment": "left",
+        "vertAlignment": "top",
+        "translation": [100,200],
+        "itemSpacings": [50]
+    },
+    "title": {
+        "color": "#7d498a"
+    },
+    "subtitle": {
+    },
+    "description": {
+        "wrap": true,
+        "numLines": 10,
+        "width": 850
+    },
+    "profileImage": {
+        "width": 450,
+        "height": 750,
+        "loadDisplayMode": "scaleToFit"
+    }
+}

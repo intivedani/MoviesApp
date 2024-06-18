@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="DetailView" extends="BasePageView">
+
+    <script type="text/brightscript" uri="DetailView.brs" />
+
+    <children >
+
+        <LayoutGroup
+            id="mainLayoutGroup" >
+
+                <LayoutGroup
+                     id="detailInformation" >
+
+                    <Label 
+                        id="title" />
+
+                     <Label 
+                        id="subtitle" />
+                    
+                     <Label 
+                        id="description" />
+                
+                </LayoutGroup>
+    
+                <Poster 
+                    id="profileImage" />
+
+        </LayoutGroup>
+
+    </children>
+
+</component>

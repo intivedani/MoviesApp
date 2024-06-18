@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="MainScene" extends="Scene">
+
+    <interface>
+    </interface>
+
+    <script type="text/brightscript" uri="MainScene.brs" />
+
+    <children>
+             <NavigationHandler id="navigationHandler"/>
+             <BusySpinner id="spinner" />
+    </children>
+
+</component>

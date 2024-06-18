@@ -62,6 +62,7 @@ sub onContentReceived()
     m.contentTask.control = "STOP"
     m.contentTask.unobserveField("output")
     m.contentTask = invalid
+    m.global.loading = false
 end sub
 
 sub onItemFocusedChanged(event as object)
@@ -77,10 +78,10 @@ sub loadCategoryContent(index = -1 as integer)
     genre = m.genresSelection.content.getChild(index)
     if m.genresStack.doesExist(genre.id)
         m.homeRowList.content = m.genresStack[genre.id]
+        m.global.loading = false
     else
         createRowlistContentTask(genre.id)
     end if
-    m.global.loading = false
 end sub
 
 sub onMovieSelected()

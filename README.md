@@ -8,7 +8,7 @@ The application is designed for Full HD resolution.
 
 ## Features
 
-- Configurable Design: JSON configuration for easy design updates.
+- Configurable Design: JSON configuration per view for easy design updates. 
 - Home Screen: Main screen with a filter to select movie genres.
 - RowList: List of movies by genre.
 - Detail Screen: Detailed view with information about the selected movie.
@@ -22,30 +22,6 @@ The application is designed for Full HD resolution.
 ## Deploy to your Roku device:
 
 Package and deploy the application to your Roku device using the [Development Application Installer.](https://developer.roku.com/es-co/docs/developer-program/getting-started/developer-setup.md)
-
-## Project Structure
-
-MovieApp/
-│
-├── images/                 # Directory for app images
-├── components/             # Custom SceneGraph components
-│   │   ├── config/         # Configuration files in JSON format and config file (for the API Key)
-│   │   ├── fonts/          # Fonts used in the application
-│   │   ├── navigation/     # Navigation logic
-│   │   ├── tasks/          # Tasks for data fetching and other operations
-│   │   ├── views/          # Views for different screens
-│   │   │   ├── HomeScene.brs   # Logic for the home screen
-│   │   │   ├── DetailScene.brs # Logic for the detail screen
-│   │   │   ├── HomeScene.xml   # UI for the home screen
-│   │   │   └── DetailScene.xml # UI for the detail screen
-│   │   ├── widgets/        # Custom components
-│   ├── source/                 # Main directory for source code
-│   │   ├── Main.brs            # Entry point of the application
-│   │   ├── Utils.brs           # File to use utilities for brightscript  methods
-│   └── manifest            # Application manifest file
-
-├── README.md               # This file
-└── .gitignore              # Files and directories to be ignored by git
 
 ## Usage
 

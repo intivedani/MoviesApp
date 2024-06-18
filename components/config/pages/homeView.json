@@ -23,5 +23,11 @@
         "rowLabelOffset": [[0,24]],
         "rowSpacings": [20],
         "showRowLabel": [true]
+    },
+    "logo": {
+        "translation": [1760, 0],
+        "width": 200,
+        "height": 200,
+        "uri": "pkg:/images/logo.jpeg"
     }
 }

@@ -6,6 +6,7 @@ end sub
 sub bindBaseComponents()
     m.homeRowList = m.top.findNode("homeRowList")
     m.genresSelection = m.top.findNode("genresSelection")
+    m.logo = m.top.findNode("logo")
     m.genresStack = {}
     m.defaultFocusId =  m.genresSelection.id
     createGenresTask()

@@ -12,6 +12,9 @@
         <RowList 
             id="homeRowList" />
         
+        <Poster 
+            id="logo" />
+        
     </children>
 
 </component>

@@ -35,8 +35,6 @@ sub saveDefaultFocus(msg as Object)
     if (m.top.hasFocus() AND m.defaultFocusId <> "" AND m[m.defaultFocusId] <> invalid)
         m[m.defaultFocusId].setFocus(true)
     end if
-    print "m.defaultFocusId: "; m.defaultFocusId
-    print "focusNode.id: "; focusNode
 end sub
 
 function getFocusNode(node) as Object
